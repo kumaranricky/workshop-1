@@ -1,7 +1,7 @@
-# To create a Welcome should be in Center Alignment Font Color: blue, in Android Studio.
+# To create a Welcome should be in Center Alignment Font Color: red, in Android Studio.
 
 ## AIM:
-To create a Welcome should be in Center Alignment Font Color: blue, in Android Studio.
+To create a Welcome should be in Center Alignment Font Color: red, in Android Studio.
 
 ## EQUIPMENTS REQUIRED: 
 Android Studio(Min. required Artic Fox)
