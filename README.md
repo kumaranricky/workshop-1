@@ -24,13 +24,11 @@ Step 7: Save and run the application.
 
 ### main activity.java
 ```java
-package com.example.lifecycle;
+package com.example.recircle1;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-
-import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -38,45 +36,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Toast toast = Toast.makeText(getApplicationContext(), "onCreate Called", Toast.LENGTH_LONG);
-        toast.show();
-    }
-
-    @Override
-    protected void onStart() {
-        super.onStart();
-        Toast toast = Toast.makeText(getApplicationContext(), "onStart Called", Toast.LENGTH_LONG);
-        toast.show();
-    }
-    @Override
-    protected void onResume() {
-        super.onResume();
-        Toast toast = Toast.makeText(getApplicationContext(), "onResume Called", Toast.LENGTH_LONG);
-        toast.show();
-    }
-    @Override
-    protected void onPause() {
-        super.onPause();
-        Toast toast = Toast.makeText(getApplicationContext(), "onPause Called", Toast.LENGTH_LONG);
-        toast.show();
-    }
-    @Override
-    protected void onStop() {
-        super.onStop();
-        Toast toast = Toast.makeText(getApplicationContext(), "onStop Called", Toast.LENGTH_LONG);
-        toast.show();
-    }
-    @Override
-    protected void onRestart() {
-        super.onRestart();
-        Toast toast = Toast.makeText(getApplicationContext(), "onRestart Called", Toast.LENGTH_LONG);
-        toast.show();
-    }
-    @Override
-    protected void onDestroy() {
-        super.onDestroy();
-        Toast toast = Toast.makeText(getApplicationContext(), "onDestroy Called", Toast.LENGTH_LONG);
-        toast.show();
     }
 }
 ```
@@ -93,7 +52,10 @@ public class MainActivity extends AppCompatActivity {
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="welcome"
+        android:textColor="#E91E63"
+        android:textColorHighlight="#00BCD4"
+        android:textColorHint="#E91E63"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
